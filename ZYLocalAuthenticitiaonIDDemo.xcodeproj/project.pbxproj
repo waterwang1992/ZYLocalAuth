@@ -20,6 +20,7 @@
 		1171F1E020A95AE6006B3218 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1171F1DE20A95AE6006B3218 /* LaunchScreen.storyboard */; };
 		1171F1E320A95AE6006B3218 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1171F1E220A95AE6006B3218 /* main.m */; };
 		1171F1EB20A95FC4006B3218 /* ZYLocalAuthIDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1171F1EA20A95FC4006B3218 /* ZYLocalAuthIDManager.m */; };
+		11A5982120C1350A00E5D523 /* ZYRSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A5982020C1350A00E5D523 /* ZYRSA.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,8 @@
 		1171F1E220A95AE6006B3218 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1171F1E920A95FC4006B3218 /* ZYLocalAuthIDManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYLocalAuthIDManager.h; sourceTree = "<group>"; };
 		1171F1EA20A95FC4006B3218 /* ZYLocalAuthIDManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYLocalAuthIDManager.m; sourceTree = "<group>"; };
+		11A5981F20C1350A00E5D523 /* ZYRSA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYRSA.h; sourceTree = "<group>"; };
+		11A5982020C1350A00E5D523 /* ZYRSA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYRSA.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 				1171F1EA20A95FC4006B3218 /* ZYLocalAuthIDManager.m */,
 				111B607220ABFAE500351D62 /* ZYQuickPayPersistent.h */,
 				111B607320ABFAE500351D62 /* ZYQuickPayPersistent.m */,
+				11A5981F20C1350A00E5D523 /* ZYRSA.h */,
+				11A5982020C1350A00E5D523 /* ZYRSA.m */,
 				1171F1D220A95AE6006B3218 /* ZYLocalAuthenticitiaonIDDemo */,
 				1171F1D120A95AE6006B3218 /* Products */,
 			);
@@ -177,6 +182,7 @@
 				1171F1D820A95AE6006B3218 /* ViewController.m in Sources */,
 				115DC8D720AD51FB00A8C343 /* UIImage+Resource.m in Sources */,
 				1171F1E320A95AE6006B3218 /* main.m in Sources */,
+				11A5982120C1350A00E5D523 /* ZYRSA.m in Sources */,
 				1171F1D520A95AE6006B3218 /* AppDelegate.m in Sources */,
 				11105E3220AAD58900C0BDC8 /* ZYLocalAuthIDConstant.m in Sources */,
 				111B607420ABFAE500351D62 /* ZYQuickPayPersistent.m in Sources */,
