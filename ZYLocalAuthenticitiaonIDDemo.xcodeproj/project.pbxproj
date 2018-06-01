@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11105E3220AAD58900C0BDC8 /* ZYLocalAuthIDConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 11105E3120AAD58900C0BDC8 /* ZYLocalAuthIDConstant.m */; };
+		111B607420ABFAE500351D62 /* ZYQuickPayPersistent.m in Sources */ = {isa = PBXBuildFile; fileRef = 111B607320ABFAE500351D62 /* ZYQuickPayPersistent.m */; };
+		115DC8B120AD0E6500A8C343 /* coupon_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 115DC8AF20AD0E6500A8C343 /* coupon_3x.png */; };
+		115DC8B220AD0E6500A8C343 /* coupon_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 115DC8B020AD0E6500A8C343 /* coupon_2x.png */; };
+		115DC8BA20AD171500A8C343 /* coupon_1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 115DC8B820AD171500A8C343 /* coupon_1x.png */; };
+		115DC8D720AD51FB00A8C343 /* UIImage+Resource.m in Sources */ = {isa = PBXBuildFile; fileRef = 115DC8D620AD51FB00A8C343 /* UIImage+Resource.m */; };
+		115DC8E320AD5FBF00A8C343 /* TestBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 115DC8E220AD5FBE00A8C343 /* TestBundle.bundle */; };
+		1171F1D520A95AE6006B3218 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1171F1D420A95AE6006B3218 /* AppDelegate.m */; };
+		1171F1D820A95AE6006B3218 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1171F1D720A95AE6006B3218 /* ViewController.m */; };
+		1171F1DB20A95AE6006B3218 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1171F1D920A95AE6006B3218 /* Main.storyboard */; };
+		1171F1E020A95AE6006B3218 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1171F1DE20A95AE6006B3218 /* LaunchScreen.storyboard */; };
+		1171F1E320A95AE6006B3218 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1171F1E220A95AE6006B3218 /* main.m */; };
+		1171F1EB20A95FC4006B3218 /* ZYLocalAuthIDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1171F1EA20A95FC4006B3218 /* ZYLocalAuthIDManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11105E3020AAD58900C0BDC8 /* ZYLocalAuthIDConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYLocalAuthIDConstant.h; sourceTree = "<group>"; };
+		11105E3120AAD58900C0BDC8 /* ZYLocalAuthIDConstant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYLocalAuthIDConstant.m; sourceTree = "<group>"; };
+		111B607220ABFAE500351D62 /* ZYQuickPayPersistent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQuickPayPersistent.h; sourceTree = "<group>"; };
+		111B607320ABFAE500351D62 /* ZYQuickPayPersistent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQuickPayPersistent.m; sourceTree = "<group>"; };
+		115DC8AF20AD0E6500A8C343 /* coupon_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coupon_3x.png; path = "../../../../jollycorp/svn/Rending/iPhone/I4.14/切图/I4.14_海外仓_张挺/coupon_3x.png"; sourceTree = "<group>"; };
+		115DC8B020AD0E6500A8C343 /* coupon_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coupon_2x.png; path = "../../../../jollycorp/svn/Rending/iPhone/I4.14/切图/I4.14_海外仓_张挺/coupon_2x.png"; sourceTree = "<group>"; };
+		115DC8B820AD171500A8C343 /* coupon_1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coupon_1x.png; path = ../../../coupon_1x.png; sourceTree = "<group>"; };
+		115DC8D520AD51FB00A8C343 /* UIImage+Resource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resource.h"; sourceTree = "<group>"; };
+		115DC8D620AD51FB00A8C343 /* UIImage+Resource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resource.m"; sourceTree = "<group>"; };
+		115DC8E220AD5FBE00A8C343 /* TestBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TestBundle.bundle; sourceTree = "<group>"; };
+		1171F1D020A95AE6006B3218 /* ZYLocalAuthenticitiaonIDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYLocalAuthenticitiaonIDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1171F1D320A95AE6006B3218 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1171F1D420A95AE6006B3218 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1171F1D620A95AE6006B3218 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1171F1D720A95AE6006B3218 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1171F1DA20A95AE6006B3218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1171F1DF20A95AE6006B3218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1171F1E120A95AE6006B3218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1171F1E220A95AE6006B3218 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1171F1E920A95FC4006B3218 /* ZYLocalAuthIDManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYLocalAuthIDManager.h; sourceTree = "<group>"; };
+		1171F1EA20A95FC4006B3218 /* ZYLocalAuthIDManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYLocalAuthIDManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1171F1CD20A95AE6006B3218 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1171F1C720A95AE6006B3218 = {
+			isa = PBXGroup;
+			children = (
+				11105E3020AAD58900C0BDC8 /* ZYLocalAuthIDConstant.h */,
+				11105E3120AAD58900C0BDC8 /* ZYLocalAuthIDConstant.m */,
+				1171F1E920A95FC4006B3218 /* ZYLocalAuthIDManager.h */,
+				1171F1EA20A95FC4006B3218 /* ZYLocalAuthIDManager.m */,
+				111B607220ABFAE500351D62 /* ZYQuickPayPersistent.h */,
+				111B607320ABFAE500351D62 /* ZYQuickPayPersistent.m */,
+				1171F1D220A95AE6006B3218 /* ZYLocalAuthenticitiaonIDDemo */,
+				1171F1D120A95AE6006B3218 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1171F1D120A95AE6006B3218 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1171F1D020A95AE6006B3218 /* ZYLocalAuthenticitiaonIDDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1171F1D220A95AE6006B3218 /* ZYLocalAuthenticitiaonIDDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1171F1D320A95AE6006B3218 /* AppDelegate.h */,
+				1171F1D420A95AE6006B3218 /* AppDelegate.m */,
+				115DC8B820AD171500A8C343 /* coupon_1x.png */,
+				115DC8B020AD0E6500A8C343 /* coupon_2x.png */,
+				115DC8AF20AD0E6500A8C343 /* coupon_3x.png */,
+				1171F1E120A95AE6006B3218 /* Info.plist */,
+				1171F1DE20A95AE6006B3218 /* LaunchScreen.storyboard */,
+				1171F1E220A95AE6006B3218 /* main.m */,
+				1171F1D920A95AE6006B3218 /* Main.storyboard */,
+				1171F1D620A95AE6006B3218 /* ViewController.h */,
+				1171F1D720A95AE6006B3218 /* ViewController.m */,
+				115DC8D520AD51FB00A8C343 /* UIImage+Resource.h */,
+				115DC8D620AD51FB00A8C343 /* UIImage+Resource.m */,
+				115DC8E220AD5FBE00A8C343 /* TestBundle.bundle */,
+			);
+			path = ZYLocalAuthenticitiaonIDDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1171F1CF20A95AE6006B3218 /* ZYLocalAuthenticitiaonIDDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1171F1E620A95AE6006B3218 /* Build configuration list for PBXNativeTarget "ZYLocalAuthenticitiaonIDDemo" */;
+			buildPhases = (
+				1171F1CC20A95AE6006B3218 /* Sources */,
+				1171F1CD20A95AE6006B3218 /* Frameworks */,
+				1171F1CE20A95AE6006B3218 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYLocalAuthenticitiaonIDDemo;
+			productName = ZYLocalAuthenticitiaonIDDemo;
+			productReference = 1171F1D020A95AE6006B3218 /* ZYLocalAuthenticitiaonIDDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1171F1C820A95AE6006B3218 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Clarence;
+				TargetAttributes = {
+					1171F1CF20A95AE6006B3218 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1171F1CB20A95AE6006B3218 /* Build configuration list for PBXProject "ZYLocalAuthenticitiaonIDDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1171F1C720A95AE6006B3218;
+			productRefGroup = 1171F1D120A95AE6006B3218 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1171F1CF20A95AE6006B3218 /* ZYLocalAuthenticitiaonIDDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1171F1CE20A95AE6006B3218 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115DC8BA20AD171500A8C343 /* coupon_1x.png in Resources */,
+				1171F1E020A95AE6006B3218 /* LaunchScreen.storyboard in Resources */,
+				115DC8E320AD5FBF00A8C343 /* TestBundle.bundle in Resources */,
+				115DC8B220AD0E6500A8C343 /* coupon_2x.png in Resources */,
+				1171F1DB20A95AE6006B3218 /* Main.storyboard in Resources */,
+				115DC8B120AD0E6500A8C343 /* coupon_3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1171F1CC20A95AE6006B3218 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1171F1D820A95AE6006B3218 /* ViewController.m in Sources */,
+				115DC8D720AD51FB00A8C343 /* UIImage+Resource.m in Sources */,
+				1171F1E320A95AE6006B3218 /* main.m in Sources */,
+				1171F1D520A95AE6006B3218 /* AppDelegate.m in Sources */,
+				11105E3220AAD58900C0BDC8 /* ZYLocalAuthIDConstant.m in Sources */,
+				111B607420ABFAE500351D62 /* ZYQuickPayPersistent.m in Sources */,
+				1171F1EB20A95FC4006B3218 /* ZYLocalAuthIDManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1171F1D920A95AE6006B3218 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1171F1DA20A95AE6006B3218 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1171F1DE20A95AE6006B3218 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1171F1DF20A95AE6006B3218 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1171F1E420A95AE6006B3218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1171F1E520A95AE6006B3218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1171F1E720A95AE6006B3218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D628AZQX3X;
+				INFOPLIST_FILE = ZYLocalAuthenticitiaonIDDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clarence.-TestPopFromBottom.ZYLocalAuthenticitiaonIDDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1171F1E820A95AE6006B3218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D628AZQX3X;
+				INFOPLIST_FILE = ZYLocalAuthenticitiaonIDDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clarence.-TestPopFromBottom.ZYLocalAuthenticitiaonIDDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1171F1CB20A95AE6006B3218 /* Build configuration list for PBXProject "ZYLocalAuthenticitiaonIDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1171F1E420A95AE6006B3218 /* Debug */,
+				1171F1E520A95AE6006B3218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1171F1E620A95AE6006B3218 /* Build configuration list for PBXNativeTarget "ZYLocalAuthenticitiaonIDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1171F1E720A95AE6006B3218 /* Debug */,
+				1171F1E820A95AE6006B3218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1171F1C820A95AE6006B3218 /* Project object */;
+}
